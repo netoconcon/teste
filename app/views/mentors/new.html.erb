@@ -1,0 +1,8 @@
+<h1>Mentors#new</h1>
+<p>Find me in app/views/mentors/new.html.erb</p>
+
+<h3>Add a mentor</h3>
+<%= simple_form_for @mentor do |f| %>
+  <%= f.input :name %>
+  <%= f.submit class: "btn btn-primary"%>
+<% end %>
